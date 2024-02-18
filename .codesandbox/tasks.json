@@ -1,0 +1,133 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [
+    {
+      "name": "Install Dependencies",
+      "command": "yarn install"
+    }
+  ],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "postinstall": {
+      "name": "postinstall",
+      "command": "yarn postinstall",
+      "runAtStart": false
+    },
+    "install-hooks": {
+      "name": "install-hooks",
+      "command": "yarn install-hooks",
+      "runAtStart": false
+    },
+    "clean": {
+      "name": "clean",
+      "command": "yarn clean",
+      "runAtStart": false
+    },
+    "bundle-dts": {
+      "name": "bundle-dts",
+      "command": "yarn bundle-dts",
+      "runAtStart": false
+    },
+    "tsc": {
+      "name": "tsc",
+      "command": "yarn tsc",
+      "runAtStart": false
+    },
+    "tsc-watch": {
+      "name": "tsc-watch",
+      "command": "yarn tsc-watch",
+      "runAtStart": false
+    },
+    "tsc-verify": {
+      "name": "tsc-verify",
+      "command": "yarn tsc-verify",
+      "runAtStart": false
+    },
+    "lint": {
+      "name": "lint",
+      "command": "yarn lint",
+      "runAtStart": false
+    },
+    "lint:eslint": {
+      "name": "lint:eslint",
+      "command": "yarn lint:eslint",
+      "runAtStart": false
+    },
+    "lint:md": {
+      "name": "lint:md",
+      "command": "yarn lint:md",
+      "runAtStart": false
+    },
+    "check-dts-docs": {
+      "name": "check-dts-docs",
+      "command": "yarn check-dts-docs",
+      "runAtStart": false
+    },
+    "check-markdown-links": {
+      "name": "check-markdown-links",
+      "command": "yarn check-markdown-links",
+      "runAtStart": false
+    },
+    "rollup": {
+      "name": "rollup",
+      "command": "yarn rollup",
+      "runAtStart": false
+    },
+    "rollup-watch": {
+      "name": "rollup-watch",
+      "command": "yarn rollup-watch",
+      "runAtStart": false
+    },
+    "build": {
+      "name": "build",
+      "command": "yarn build",
+      "runAtStart": false
+    },
+    "build:watch": {
+      "name": "build:watch",
+      "command": "yarn build:watch",
+      "runAtStart": false
+    },
+    "build:prod": {
+      "name": "build:prod",
+      "command": "yarn build:prod",
+      "runAtStart": false
+    },
+    "build:release": {
+      "name": "build:release",
+      "command": "yarn build:release",
+      "runAtStart": false
+    },
+    "prepare-release": {
+      "name": "prepare-release",
+      "command": "yarn prepare-release",
+      "runAtStart": false
+    },
+    "prepare-package-json-for-release": {
+      "name": "prepare-package-json-for-release",
+      "command": "yarn prepare-package-json-for-release",
+      "runAtStart": false
+    },
+    "size-limit": {
+      "name": "size-limit",
+      "command": "yarn size-limit",
+      "runAtStart": false
+    },
+    "verify": {
+      "name": "verify",
+      "command": "yarn verify",
+      "runAtStart": false
+    },
+    "test": {
+      "name": "test",
+      "command": "yarn test",
+      "runAtStart": false
+    },
+    "type-tests": {
+      "name": "type-tests",
+      "command": "yarn type-tests",
+      "runAtStart": false
+    }
+  }
+}
